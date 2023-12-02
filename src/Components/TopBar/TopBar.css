@@ -1,0 +1,26 @@
+.topbar-sec {
+  width: 1250px;
+  margin: 20px auto;
+  border: 1px solid rgb(192, 197, 195);
+  border-radius: 15px;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.topbar-sec > div {
+  border-right: 1px solid rgb(192, 197, 195);
+  width: 16%;
+  padding: 0 50px 0 20px;
+}
+.topbar-sec > div h6 {
+  font-size: 14px;
+  color: rgb(176, 171, 171);
+  margin: 0;
+  font-weight: 600;
+}
+.topbar-sec > div p {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 7px;
+}

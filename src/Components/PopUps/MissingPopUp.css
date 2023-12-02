@@ -1,0 +1,41 @@
+.missingpopup-sec {
+  /* width: 100vw;
+  height: 100vh; */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4e4c4c77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.missingpopup-sec > div {
+  background-color: white;
+  padding: 10px 25px 20px;
+}
+.missingpopup-sec .heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -20px;
+  color: rgb(43, 43, 43);
+}
+.missingpopup-sec .heading-div .icon-div {
+  cursor: pointer;
+}
+.details {
+  color: gray;
+  font-weight: 400;
+}
+.option-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+  color: rgb(43, 43, 43);
+}
+.option-div h5 {
+  margin-left: 20px;
+  cursor: pointer;
+}

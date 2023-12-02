@@ -1,0 +1,36 @@
+.titlebar-sec {
+  box-shadow: 0 5px 8px rgb(231, 226, 226);
+}
+.titlebar-sec > div {
+  width: 1250px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 0 10px 5px 10px;
+}
+.titlebar-sec > div > div {
+  font-size: 14px;
+  font-weight: 500;
+}
+.titlebar-sec > div .arrow-div {
+  color: rgb(109, 108, 108);
+  display: flex;
+  align-items: center;
+}
+.titlebar-sec > div .btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5px;
+}
+.titlebar-sec > div .btn-div button {
+  background-color: white;
+  padding: 6px 15px;
+  border: 1px solid rgb(37, 75, 51);
+  font-size: 14px;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+.titlebar-sec > div .btn-div .green {
+  background-color: rgb(37, 75, 51);
+  color: white;
+}

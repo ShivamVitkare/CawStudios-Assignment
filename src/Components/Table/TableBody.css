@@ -1,0 +1,74 @@
+.tbody-div {
+  border-bottom: 1.5px solid rgb(194, 190, 190);
+  color: rgb(154, 150, 150);
+}
+tbody {
+}
+.td-img img {
+  width: 35px;
+}
+
+td {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 3px 15px 0;
+}
+
+.td-img {
+  width: 80px;
+  padding-left: 15px;
+}
+.td-product {
+  width: 270px;
+}
+.td-brand,
+.td-quantity {
+  width: 115px;
+}
+
+.td-total {
+  width: 100px;
+}
+.td-price,
+.td-status {
+  width: 150px;
+  box-sizing: border-box;
+}
+.td-edit {
+  display: flex;
+  align-items: center;
+  /* height: 110%; */
+  justify-content: end;
+  width: 190px;
+  box-sizing: border-box;
+  padding: 20px 5px 20px 0;
+  /* border: 1px solid red; */
+}
+.tick {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.cross {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.edit {
+  padding: 0 10px 3px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.td-status,
+.td-edit {
+  background-color: rgb(245, 241, 241);
+}
+.td-quantity span {
+  color: rgb(61, 59, 59);
+  font-weight: 800;
+  font-size: 16px;
+}
